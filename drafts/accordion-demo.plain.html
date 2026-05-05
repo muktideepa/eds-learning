@@ -1,0 +1,30 @@
+<div>
+  <h1>Accordion Demo</h1>
+  <p>This page demonstrates the accordion block. Click any item below to expand it.</p>
+</div>
+<div class="accordion">
+  <div>
+    <div><p>What is Edge Delivery Services?</p></div>
+    <div>
+      <p>Edge Delivery Services (EDS) is Adobe's high-performance web delivery layer built on top of the Helix/Franklin architecture. It serves content directly from the CDN edge, achieving near-instant page loads and perfect Lighthouse scores.</p>
+    </div>
+  </div>
+  <div>
+    <div><p>How are blocks created?</p></div>
+    <div>
+      <p>Each block lives in its own folder under <code>blocks/</code> with a matching <code>.js</code> and <code>.css</code> file. The JS exports a default <code>decorate(block)</code> function that transforms the authored HTML into the final rendered structure.</p>
+    </div>
+  </div>
+  <div>
+    <div><p>Do I need a build step?</p></div>
+    <div>
+      <p>No. EDS uses plain ES6+ modules loaded natively by the browser. There is no bundler, no transpiler, and no build step — just vanilla JavaScript, CSS, and HTML.</p>
+    </div>
+  </div>
+  <div>
+    <div><p>Where does content come from?</p></div>
+    <div>
+      <p>Content is authored in Google Docs or Microsoft Word documents, then synced to the AEM backend via AEM Sidekick. The backend converts documents to clean semantic HTML which the blocks then decorate.</p>
+    </div>
+  </div>
+</div>
