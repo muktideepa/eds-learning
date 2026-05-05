@@ -1,0 +1,35 @@
+{
+  "total": 4,
+  "offset": 0,
+  "limit": 256,
+  "data": [
+    {
+      "title": "Getting Started with Edge Delivery Services",
+      "description": "Learn the basics of EDS — how pages are structured, what blocks are, and how the three-phase loading works.",
+      "path": "/articles/getting-started",
+      "date": "2026-04-01",
+      "tag": "Tutorial"
+    },
+    {
+      "title": "Building Your First Block",
+      "description": "A step-by-step guide to creating a custom block with JS and CSS, from authored content to rendered output.",
+      "path": "/articles/first-block",
+      "date": "2026-04-10",
+      "tag": "Tutorial"
+    },
+    {
+      "title": "Performance Best Practices",
+      "description": "How to keep your Lighthouse score at 100 — lazy loading, image optimization, and avoiding render-blocking resources.",
+      "path": "/articles/performance",
+      "date": "2026-04-18",
+      "tag": "Performance"
+    },
+    {
+      "title": "Authoring with Document Authoring (DA)",
+      "description": "A guide for content authors on how to use DA to create pages, add blocks, and preview changes.",
+      "path": "/articles/da-authoring",
+      "date": "2026-04-25",
+      "tag": "Authoring"
+    }
+  ]
+}
